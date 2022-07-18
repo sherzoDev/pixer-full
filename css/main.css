@@ -258,7 +258,7 @@ header {
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
-    color: var(--main-color-link);
+    color: var(--main-white-color);
 }
 
 .hero-text p,

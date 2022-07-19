@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 :root {
     --main--link-bgcolor: #00BAFC;
     --main-color-link: #000000;
@@ -135,7 +142,8 @@ header {
     width: 132px;
     background-color: var(--main-white-color);
     list-style: none;
-    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
